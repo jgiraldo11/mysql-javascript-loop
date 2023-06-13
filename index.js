@@ -3,7 +3,7 @@ import { dbCredentials } from "./secrets.js";
 
 const db = mysql.createConnection(dbCredentials);
 
-const query = "SELECT * FROM Movies_table";
+const query = "SELECT * FROM movies";
 
 db.query(
     query,
